@@ -1,0 +1,25 @@
+{
+  "name": "Python Django Development Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "forwardPorts": [
+    8000
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "python.testing.pytestEnabled": true,
+        "python.testing.unittestEnabled": true
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "njpwerner.autodocstring"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
