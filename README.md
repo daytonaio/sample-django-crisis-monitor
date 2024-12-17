@@ -10,6 +10,16 @@ CrisisMonitor is a web application designed to track natural disasters and provi
 
 ---
 
+## 📸 Screenshots  
+
+![Hero Section](imgs/hero.png)  
+ 
+![Site Overview](imgs/site.png)
+
+![Dashboard](imgs/dashboard.png)  
+
+---
+
 ## 🚀 Getting Started  
 
 ### Open Using Daytona  
